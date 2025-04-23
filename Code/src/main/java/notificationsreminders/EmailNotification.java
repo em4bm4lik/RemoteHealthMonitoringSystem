@@ -12,8 +12,8 @@ public class EmailNotification implements Notifiable {
     @Override
     public void send(User receiver, String message) {
         String recipientEmail = receiver.getEmail();
-        String senderEmail = "abdullahbinsaffi@gmail.com";
-        String senderPassword = "msejueuyyurordxi";
+        String senderEmail = "";
+        String senderPassword = "";
         // Setting properties
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true"); // Doing this to enable authentication
