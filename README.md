@@ -1,5 +1,4 @@
 # RemoteHealthMonitoringSystem
-# Remote Hospital Management System
 
 ## Description
 
