@@ -75,7 +75,7 @@ Alerts are automatically sent to all doctors via Email and SMS when:
 
 ## Dummy Data Initialization
 
-To simplify testing and meet assignment requirements:
+To simplify testing and meet requirements:
 
 - The system starts with predefined users:
   - 3 Admins
@@ -86,9 +86,7 @@ Each user's ID, name, email, and phone number are displayed on console at progra
 
 Note: The system is designed to be scalable to include:
 
-- User registration and login
-- Persistent storage (file or database)
-- Graphical User Interface (JavaFX)
+- Enhanced Graphical User Interface (JavaFX)
 
 ---
 
