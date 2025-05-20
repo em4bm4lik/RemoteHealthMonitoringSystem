@@ -1,0 +1,12 @@
+INSTRUCTIONS  FOR  RUNNING  THE  PROJECT:
+
+->   The CSV files that are attached with this project are just for initial reference and these are not the files that the program will be modifying or using for data storage. These CSV files only provide information about the default Doctors, Patients, Administrators, Vitals and Chats that have been initialized for the project and have been used for testing. 
+The actual files that the program is going to use for data storage and retrieval are present at "\Code\administrators.txt", "\Code\doctors.txt", "\Code\patients.txt", "\Code\vitals.txt" and "\Code\chats.txt". These files are read and written through Object Serialization and are thus not in a human readable format.
+
+->   For the efficient sending of emails through the program without it throwing an exception whenever an email is sent at the backend, PLEASE  DO  ENSURE  TO  ADD  YOUR  EMAIL  AND  APP  PASSWORD  in the code of the following class "\Code\src\main\java\notificationsreminders\EmailNotification.java". 
+Our personal email has been used for testing but we will remove it before submitting the code due to security and privacy concerns.
+
+->  If a program user wants to sign-up as an administrator, he has to provide a secret platform phrase. This functionality has been implemented to mimic the security concern that in a real world system, every end user should not be allowed to use the system as an administrator. Therefore, there should be some kind of condition for signing up as an administrator which has been implemented using this secret phrase. 
+The secret phrase for this application is: 		"Winter is Coming!".
+
+->  For efficient report generation, make sure to CHANGE  THE  TARGET  PATH in  ReportGenerator.java class to your downloads path (or any custom path). The default path assigned is           "C:\Users\hp\Downloads\report1.pdf"     .  To generate the report in your downloads folder replace "hp" in the default path with your windows user name.
